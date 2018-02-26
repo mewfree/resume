@@ -1,0 +1,113 @@
+---
+# Personal details
+name: Damien Gonot
+address: Montreal, Quebec, Canada
+phone: "(+1) 438-393-9073"
+email: damien.gonot@gmail.com
+urls: www.damiengonot.com
+
+# Sections
+
+experience:
+- years: Feb. 2017 \newline -- \newline Now
+  employer: Hopper
+  job: User Acquisition Manager
+  city: Montreal, QC
+  description:
+  - linedescription: Managing Hopper's User Acquisition strategy accross all ad networks (Facebook, AdWords, Snapchat, Pinterest, Apple Search Ads...).
+  - linedescription: Use of Facebook Marketing API to generate & test thousands of targetings and creatives.
+- years: Sept. 2016 \newline -- \newline Feb. 2017
+  employer: Konversion
+  job: Campaigns Manager
+  city: Montreal, QC
+  description:
+  - linedescription: Managing the digital marketing strategy of multiple clients, including the biggest AdWords account in Canada in terms of budget. Daily campaigns optimization on Facebook Ads, AdWords, Bing Ads and other platforms. Reporting to clients.
+  - linedescription: "Opportunity to work with a team of experts for a wide array of industries, including insurance companies, real estate, retail, travel, for a total of a $15,000,000 annual budget."
+- years: May 2015 \newline -- \newline Sept. 2016
+  employer: Busbud
+  job: Customer Acquisition Associate
+  city: Montreal, QC
+  description:
+  - linedescription: "Manager of AdWords and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click)."
+  - linedescription: Switched our AdWords scripts setup to an AdWords API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
+  - linedescription: 2016 Prix Média Infopresse, category "Best Use of Search Engines" with the "Busbud, two guys, one account (and 500,000 routes)" submission.
+  # - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
+  - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
+- years: February 2015 \newline -- \newline April 2015
+  employer: Busbud
+  job: SEM Intern
+  city: Montreal, QC
+  description:
+  - linedescription: Day-to-day account management. Use of AdWords Scripts to automatically generate campaigns for each bus routes in Busbud inventory (PostgreSQL database). Creation of Bing Ads account which replicates AdWords campaigns.
+- years: January 2013 \newline -- \newline July 2013
+  employer: Roomlala
+  job: SEM Assistant (Intern)
+  city: Paris, France
+  description:
+  - linedescription: Optimization of global advertisting campaigns on major search engines (Google AdWords, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Use of Dynamic Search Ads, display ads & remarketing strategies. Optimization of landing pages with UX enhancing techniques (A/B testing...) in order to rise conversation rate.
+
+oldexperience:
+- years: May 2012 \newline -- \newline July 2012
+  employer: Kedge Business School
+  job: Student Welcome Team
+  city: Marseille, France
+  description:
+  - linedescription: Welcomed several thousands of business school candidates from France and all over the world for their admission interviews.
+  - linedescription: Skills developed in communication and community management (Facebook & Twitter) as well as logistics (management of catering and overnight stays).
+- years: January 2012 \newline -- \newline March 2012
+  employer: Auchan
+  job: Junior Auditor (School Project)
+  city: Marseille, France
+  description:
+  - linedescription: Produced a market study with 4 other team members about price perception for Auchan (second largest retailer in France after Carrefour) for a student challenge in collaboration with a local supermarket staff (department managers...).
+
+education:
+- years: 2014--2015
+  subject: College of Commerce
+  degree: Exchange Student
+  institute: National Chengchi University
+  city: Taipei, Taiwan
+- years: 2013--2014
+  subject: John Molson School of Business
+  degree: Visiting Student
+  institute: Concordia University
+  city: Montreal, Quebec
+- years: 2011--2015
+  subject: International BBA (Bachelor in Business Administration)
+  degree: Full-time student
+  institute: Kedge Business School
+  city: Marseille, France
+# - years: 2009--2011
+  # subject: Engineering Sciences
+  # degree: Scientific Baccalauréat
+  # institute: Lycée Durzy
+  # city: Villemandeur, France
+
+skills:
+- Google AdWords (including AdWords Script & AdWords API), Bing Ads, Facebook Ads (including Facebook Marketing API), Twitter Ads, Criteo
+- Google Analytics, MixPanel, Amplitude, Hotjar
+- Travel (North America, Europe, Asia) & transportation industry
+- "Last trip: Spain & Portugal (Summer 2017)"
+- "Data Science: R, SPSS, Pandas & NumPy libraries for Python, SAS, forecasting"
+# - Mailchimp, Customer.io, Campaign Monitor
+- Programmer by passion; Node.js (ES6), Python, R, Ruby, Lua, SQL, HTML5/CSS3, \LaTeX
+- "Interests in Functionnal Programming: LISP (Scheme, Clojure), Haskell, Elm"
+- OS X, Archlinux, Vim, Bitcoin
+
+languages:
+  - language: French
+    proficiency: Native
+  - language: English
+    proficiency: Bilingual
+  - language: German
+    proficiency: Intermediate
+  - language: Chinese
+    proficiency: Beginner
+
+
+# Settings
+mainfont: Optima
+fontsize: 10pt
+lang: en-CA
+geometry: letterpaper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in
+---

@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0in}
+
+% Enable multicolumns
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+
+% Uncomment to suppress page numbers
+\pagenumbering{gobble}
+
+% LANGUAGE
+%--------------------------------
+% Set the main language
+$if(lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$lang$}
+$endif$
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{12pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% PDF SETUP
+%--------------------------------
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={$name$'s Résumé},pdfauthor={$name$}]{hyperref}
+\hypersetup{linkcolor=black,citecolor=blue,filecolor=black,urlcolor=black}
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\LARGE $name$}\\[.2cm]
+
+% $address$ | $phone$ | \href{mailto:$email$}{$email$} |  \href{https://$urls$}{$urls$}
+$address$ | $phone$ | \href{mailto:$email$}{$email$}
+
+%\begin{multicols}{2}
+
+%$for(address)$
+%$address$\\
+%$endfor$
+
+%\vspace{-10pt}
+
+%$phone$\\
+%\href{mailto:$email$}{$email$}\\
+
+%\columnbreak
+
+%$for(urls)$
+%\href{http://$urls$}{$urls$}\\
+%$endfor$
+%\end{multicols}
+
+% \vfill
+
+% $intro$
+
+% \vfill
+
+\section*{Experience}
+\noindent
+$for(experience)$
+\note{$experience.years$}\textbf{$experience.job$, }\textsc{$experience.employer$} ($experience.city$)
+\begin{itemize}
+$for(experience.description)$
+\item $experience.description.linedescription$
+$endfor$
+\end{itemize}
+$endfor$
+
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.years$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+$endfor$
+
+\section*{Previous Experience \& School Projects}
+\noindent
+$for(oldexperience)$
+\note{$oldexperience.years$}\textbf{$oldexperience.job$, }\textsc{$oldexperience.employer$} ($oldexperience.city$)
+\begin{itemize}
+$for(oldexperience.description)$
+\item $oldexperience.description.linedescription$
+$endfor$
+\end{itemize}
+$endfor$
+
+\section*{Skills and Interests}
+\begin{itemize}
+$for(skills)$
+\item $skills$
+$endfor$
+\end{itemize}
+
+$if(languages)$
+\section*{Languages}
+$for(languages)$
+\emph{$languages.language$} ($languages.proficiency$)\\
+$endfor$
+$endif$
+
+\end{document}
