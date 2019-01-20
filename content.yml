@@ -14,22 +14,22 @@ experience:
   job: User Acquisition Manager
   city: Montreal, QC
   description:
-  - linedescription: Managed Hopper's User Acquisition strategy accross all ad networks (Facebook, AdWords, Snapchat, Pinterest, Apple Search Ads...).
+  - linedescription: Managed Hopper's User Acquisition strategy across all ad networks (Facebook/Instagram, Google Ads, Snapchat, Pinterest, Apple Search Ads...).
   - linedescription: Used Facebook Marketing API to generate & test thousands of targetings and creatives.
 - years: Sept. 2016 \newline -- \newline Feb. 2017
   employer: Konversion
   job: Campaigns Manager
   city: Montreal, QC
   description:
-  - linedescription: Managed the digital marketing strategy of multiple clients, including the biggest AdWords account in Canada in terms of budget. Daily campaigns optimization on Facebook Ads, AdWords, Bing Ads and other platforms. Client reporting.
+  - linedescription: Managed the digital marketing strategy of multiple clients, including the biggest Google Ads account in Canada in terms of budget. Daily campaigns optimization on Facebook Ads, Google Ads, Bing Ads and other platforms. Client reporting.
   - linedescription: "Worked with a team of experts for a wide array of industries, including insurance companies, real estate, retail, travel, for a total of a $15,000,000 annual budget."
 - years: May 2015 \newline -- \newline Sept. 2016
   employer: Busbud
   job: Customer Acquisition Associate
   city: Montreal, QC
   description:
-  - linedescription: "Managed AdWords and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click)."
-  - linedescription: Switched our AdWords scripts setup to an AdWords API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
+  - linedescription: "Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click)."
+  - linedescription: Switched our Google Ads scripts setup to a Google Ads API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
   - linedescription: 2016 Prix Média Infopresse, category "Best Use of Search Engines" with the "Busbud, two guys, one account (and 500,000 routes)" submission.
   # - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
   - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
@@ -38,13 +38,13 @@ experience:
   job: SEM Intern
   city: Montreal, QC
   description:
-  - linedescription: Day-to-day account management. Used AdWords Scripts to automatically generate campaigns for each bus routes in Busbud inventory (PostgreSQL database). Created Bing Ads account which replicated AdWords campaigns.
+  - linedescription: Day-to-day account management. Used Google Ads Scripts to automatically generate campaigns for each bus routes in Busbud inventory (PostgreSQL database). Created Bing Ads account which replicated Google Ads campaigns.
 - years: January 2013 \newline -- \newline July 2013
   employer: Roomlala
   job: SEM Assistant (Intern)
   city: Paris, France
   description:
-  - linedescription: Optimized global advertisting campaigns on major search engines (Google AdWords, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Used Dynamic Search Ads, display ads & remarketing strategies. Optimized landing pages with UX enhancing techniques (A/B testing...) in order to rise conversation rate.
+  - linedescription: Optimized global advertisting campaigns on major search engines (Google Ads, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Used Dynamic Search Ads, display ads & remarketing strategies. Optimized landing pages with UX enhancing techniques (A/B testing...) in order to rise conversation rate.
 
 oldexperience:
 - years: May 2012 \newline -- \newline July 2012
@@ -84,10 +84,10 @@ education:
   # city: Villemandeur, France
 
 skills:
-- Google AdWords (including AdWords Script & AdWords API), Bing Ads, Facebook Ads (including Facebook Marketing API), Twitter Ads, Criteo
-- Google Analytics, MixPanel, Amplitude, Hotjar
+- Google Ads (including Google Ads scripts & Google Ads API), Bing Ads, Facebook Ads (including Facebook Marketing API), Twitter Ads, Pinterest Ads, Snapchat Ads, Apple Search Ads
+- Google Analytics & Google Search Console, AppsFlyer, MixPanel, Amplitude, Hotjar
 - Travel (North America, Europe, Asia) & transportation industry
-- "Last trip: Spain & Portugal (Summer 2017)"
+- "Last trips: Japan & Taiwan (Summer 2018), Toronto (Winter 2019)"
 - "Data Science: R, SPSS, Pandas & NumPy libraries for Python, SAS, forecasting"
 # - Mailchimp, Customer.io, Campaign Monitor
 - Programmer by passion; Node.js (ES6), Python, R, Ruby, Lua, SQL, HTML5/CSS3, \LaTeX
