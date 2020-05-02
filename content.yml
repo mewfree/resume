@@ -1,65 +1,54 @@
 ---
 # Personal details
 name: Damien Gonot
-address: Montreal, Quebec, Canada
-phone: "(+1) 438-393-9073"
+address: Montreal, QC, Canada
 email: damien.gonot@gmail.com
-urls: www.damiengonot.com
+urls: https://www.damiengonot.com
 
 # Sections
-
 experience:
 - years: Feb. 2017 \newline -- \newline Now
   employer: Hopper
+  employerdescription: Flights & hotels booking app
   job: User Acquisition Manager
   city: Montreal, QC
   description:
-  - linedescription: Managed Hopper's User Acquisition strategy across all ad networks (Facebook/Instagram, Google Ads, Snapchat, Pinterest, Apple Search Ads...).
-  - linedescription: Used Facebook Marketing API to generate & test thousands of targetings and creatives.
+  - linedescription: Created the Hopper Ads Engine, a collection of Python scripts automatically generating, optimizing and reporting Hopper's user acquisition strategy.
+  - linedescription: Integrated our internal inventory of flights & hotels prices with the ad platforms' API (Facebook, Snap, Twitter, TikTok...) to generate thousands of daily refreshed creatives.
+  - linedescription: Optimized our overall acquisition campaigns to continuously reach our target payback period and LTV/CAC target ratio.
+  - linedescription: Reported spend & performance by automatically pulling reports from ad platforms and our Mobile Measurement Platform (AppsFlyer) to BigQuery and Google Spreadsheets.
+  - linedescription: Other projects around email marketing, notifications, text-to-speech for video creatives...
 - years: Sept. 2016 \newline -- \newline Feb. 2017
   employer: Konversion
+  employerdescription: SEM/SEO agency now part of Accenture
   job: Campaigns Manager
   city: Montreal, QC
   description:
-  - linedescription: Managed the digital marketing strategy of multiple clients, including the biggest Google Ads account in Canada in terms of budget. Daily campaigns optimization on Facebook Ads, Google Ads, Bing Ads and other platforms. Client reporting.
-  - linedescription: "Worked with a team of experts for a wide array of industries, including insurance companies, real estate, retail, travel, for a total of a $15,000,000 annual budget."
+  - linedescription: Managed the digital marketing strategy of multiple clients (insurance, real estate, retail...), including one of the largest Google Ads account in Canada in terms of budget, with a total annual budget of over $15M accross accounts.
 - years: May 2015 \newline -- \newline Sept. 2016
   employer: Busbud
+  employerdescription: Intercity bus tickets website
   job: Customer Acquisition Associate
   city: Montreal, QC
   description:
   - linedescription: "Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click)."
   - linedescription: Switched our Google Ads scripts setup to a Google Ads API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
-  - linedescription: 2016 Prix Média Infopresse, category "Best Use of Search Engines" with the "Busbud, two guys, one account (and 500,000 routes)" submission.
-  # - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
+  - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
   - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
+
+oldexperience:
 - years: February 2015 \newline -- \newline April 2015
   employer: Busbud
   job: SEM Intern
   city: Montreal, QC
   description:
-  - linedescription: Day-to-day account management. Used Google Ads Scripts to automatically generate campaigns for each bus routes in Busbud inventory (PostgreSQL database). Created Bing Ads account which replicated Google Ads campaigns.
+  - linedescription: Day-to-day account management. Used Google Ads Scripts to automatically generate campaigns for each bus routes in Busbud's inventory (PostgreSQL database). Created Bing Ads account which replicated Google Ads campaigns.
 - years: January 2013 \newline -- \newline July 2013
   employer: Roomlala
   job: SEM Assistant (Intern)
   city: Paris, France
   description:
-  - linedescription: Optimized global advertisting campaigns on major search engines (Google Ads, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Used Dynamic Search Ads, display ads & remarketing strategies. Optimized landing pages with UX enhancing techniques (A/B testing...) in order to rise conversation rate.
-
-oldexperience:
-- years: May 2012 \newline -- \newline July 2012
-  employer: Kedge Business School
-  job: Student Welcome Team
-  city: Marseille, France
-  description:
-  - linedescription: Welcomed several thousands of business school candidates from France and all over the world for their admission interviews.
-  - linedescription: Developed skills in communication and community management (Facebook & Twitter) as well as logistics (management of catering and overnight stays).
-- years: January 2012 \newline -- \newline March 2012
-  employer: Auchan
-  job: Junior Auditor (School Project)
-  city: Marseille, France
-  description:
-  - linedescription: Produced a market study with 4 other team members about price perception for Auchan (second largest retailer in France after Carrefour) for a student challenge in collaboration with a local supermarket staff (department managers...).
+  - linedescription: Optimized global advertisting campaigns on major search engines (Google Ads, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Used Dynamic Search Ads, display ads & remarketing strategies. Optimized landing pages by A|B testing in order to rise conversation rate.
 
 education:
 - years: 2014--2015
@@ -77,33 +66,22 @@ education:
   degree: Full-time student
   institute: Kedge Business School
   city: Marseille, France
-# - years: 2009--2011
-  # subject: Engineering Sciences
-  # degree: Scientific Baccalauréat
-  # institute: Lycée Durzy
-  # city: Villemandeur, France
 
 skills:
-- Google Ads (including Google Ads scripts & Google Ads API), Bing Ads, Facebook Ads (including Facebook Marketing API), Twitter Ads, Pinterest Ads, Snapchat Ads, Apple Search Ads
-- Google Analytics & Google Search Console, AppsFlyer, MixPanel, Amplitude, Hotjar
-- Travel (North America, Europe, Asia) & transportation industry
-- "Last trips: Japan & Taiwan (Summer 2018), Toronto (Winter 2019)"
-- "Data Science: R, SPSS, Pandas & NumPy libraries for Python, SAS, forecasting"
-# - Mailchimp, Customer.io, Campaign Monitor
-- Programmer by passion; Node.js (ES6), Python, R, Ruby, Lua, SQL, HTML5/CSS3, \LaTeX
-- "Interests in Functionnal Programming: LISP (Scheme, Clojure), Haskell, Elm"
-- OS X, Archlinux, Vim, Bitcoin
+- Google Ads (including Google Ads scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Pinterest Ads, Snapchat Ads, Apple Search Ads, TikTok Ads
+- Python, Node.js, Elixir, Ruby, SQL, Redis, \LaTeX
+- "Interests in Functionnal Programming: Racket, Scheme, Clojure"
+- "Data Science: Pandas & NumPy libraries for Python, R, forecasting"
+- "Tools: OS X, Linux, zsh + tmux + (neo)vim"
+- "Last trip: Hong Kong & Seoul (Summer 2019)"
 
 languages:
   - language: French
     proficiency: Native
   - language: English
     proficiency: Bilingual
-  - language: German
-    proficiency: Intermediate
-  - language: Chinese
+  - language: Mandarin Chinese
     proficiency: Beginner
-
 
 # Settings
 mainfont: Optima

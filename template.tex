@@ -1,7 +1,7 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[$fontsize$, a4paper]{article}
+\documentclass[$fontsize$, letterpaper]{article}
 
 % LAYOUT
 %--------------------------------
@@ -65,37 +65,12 @@ $endif$
 
 {\LARGE $name$}\\[.2cm]
 
-% $address$ | $phone$ | \href{mailto:$email$}{$email$} |  \href{https://$urls$}{$urls$}
-$address$ | $phone$ | \href{mailto:$email$}{$email$}
-
-%\begin{multicols}{2}
-
-%$for(address)$
-%$address$\\
-%$endfor$
-
-%\vspace{-10pt}
-
-%$phone$\\
-%\href{mailto:$email$}{$email$}\\
-
-%\columnbreak
-
-%$for(urls)$
-%\href{http://$urls$}{$urls$}\\
-%$endfor$
-%\end{multicols}
-
-% \vfill
-
-% $intro$
-
-% \vfill
+Based in $address$ | \href{mailto:$email$}{$email$} | \href{$urls$}{$urls$}
 
 \section*{Experience}
 \noindent
 $for(experience)$
-\note{$experience.years$}\textbf{$experience.job$, }\textsc{$experience.employer$} ($experience.city$)
+\note{$experience.years$}\textbf{$experience.job$, }\textsc{$experience.employer$} -- \emph{{$experience.employerdescription$} ($experience.city$)}
 \begin{itemize}
 $for(experience.description)$
 \item $experience.description.linedescription$
@@ -110,7 +85,7 @@ $for(education)$
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
 $endfor$
 
-\section*{Previous Experience \& School Projects}
+\section*{Previous Experience}
 \noindent
 $for(oldexperience)$
 \note{$oldexperience.years$}\textbf{$oldexperience.job$, }\textsc{$oldexperience.employer$} ($oldexperience.city$)
