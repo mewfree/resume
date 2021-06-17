@@ -7,7 +7,22 @@ urls: https://www.damiengonot.com
 
 # Sections
 experience:
-- years: Feb. 2017 \newline -- \newline Now
+- years: Mar. 2021 \newline -- \newline Now
+  employer: Wealthsimple
+  employerdescription: Financial services
+  job: Software Engineer - Growth
+  city: Remote, Canada
+  description:
+  - linedescription: Working on an internal service to scale creatives throughput and advertising spend
+- years: Jul. 2020 \newline -- \newline Now
+  employer: Damien Gonot
+  employerdescription: Sole proprietorship
+  job: Marketing Consultant
+  city: Montreal, QC
+  description:
+  - linedescription: Helped a Y Combinator company scale their Google Ads by leveraging Google Ads Scripts.
+  - linedescription: Other projects around data reporting, automated Facebook Ads campaigns creation...
+- years: Feb. 2017 \newline -- \newline Sept. 2020
   employer: Hopper
   employerdescription: Flights & hotels booking app
   job: User Acquisition Manager
