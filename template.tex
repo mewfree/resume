@@ -81,18 +81,9 @@ $endfor$
 \section*{Education}
 \noindent
 $for(education)$
-\note{$education.years$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
-$endfor$
-
-\section*{Previous Experience}
-\noindent
-$for(oldexperience)$
-\note{$oldexperience.years$}\textbf{$oldexperience.job$, }\textsc{$oldexperience.employer$} ($oldexperience.city$)
+\note{$education.years$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$
 \begin{itemize}
-$for(oldexperience.description)$
-\item $oldexperience.description.linedescription$
-$endfor$
+\item \emph{$education.institute$}$if(education.city)$ ($education.city$)$endif$
 \end{itemize}
 $endfor$
 
@@ -105,9 +96,11 @@ $endfor$
 
 $if(languages)$
 \section*{Languages}
+\begin{itemize}
 $for(languages)$
-\emph{$languages.language$} ($languages.proficiency$)\\
+\item \emph{$languages.language$} ($languages.proficiency$)
 $endfor$
+\end{itemize}
 $endif$
 
 \end{document}

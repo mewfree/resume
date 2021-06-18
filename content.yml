@@ -13,7 +13,7 @@ experience:
   job: Software Engineer - Growth
   city: Remote, Canada
   description:
-  - linedescription: Working on an internal service to scale creatives throughput and advertising spend
+  - linedescription: Working on an internal Ruby on Rails service to scale creatives throughput and advertising spend.
 - years: Jul. 2020 \newline -- \newline Now
   employer: Damien Gonot
   employerdescription: Sole proprietorship
@@ -46,24 +46,11 @@ experience:
   job: Customer Acquisition Associate
   city: Montreal, QC
   description:
-  - linedescription: "Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click)."
+  - linedescription: >-
+      Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click).
   - linedescription: Switched our Google Ads scripts setup to a Google Ads API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
   - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
   - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
-
-oldexperience:
-- years: February 2015 \newline -- \newline April 2015
-  employer: Busbud
-  job: SEM Intern
-  city: Montreal, QC
-  description:
-  - linedescription: Day-to-day account management. Used Google Ads Scripts to automatically generate campaigns for each bus routes in Busbud's inventory (PostgreSQL database). Created Bing Ads account which replicated Google Ads campaigns.
-- years: January 2013 \newline -- \newline July 2013
-  employer: Roomlala
-  job: SEM Assistant (Intern)
-  city: Paris, France
-  description:
-  - linedescription: Optimized global advertisting campaigns on major search engines (Google Ads, Bing Ads) with a strong ROI and a low CPA (Cost Per Acquisition). Used Dynamic Search Ads, display ads & remarketing strategies. Optimized landing pages by A|B testing in order to rise conversation rate.
 
 education:
 - years: 2014--2015
@@ -78,17 +65,21 @@ education:
   city: Montreal, Quebec
 - years: 2011--2015
   subject: International BBA (Bachelor in Business Administration)
-  degree: Full-time student
+  degree: Full-time Student
   institute: Kedge Business School
   city: Marseille, France
 
 skills:
-- Google Ads (including Google Ads scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Pinterest Ads, Snapchat Ads, Apple Search Ads, TikTok Ads
-- Python, Node.js, Elixir, Ruby, SQL, Redis, \LaTeX
-- "Interests in Functionnal Programming: Racket, Scheme, Clojure"
-- "Data Science: Pandas & NumPy libraries for Python, R, forecasting"
-- "Tools: OS X, Linux, zsh + tmux + (neo)vim"
-- "Last trip: Hong Kong & Seoul (Summer 2019)"
+- Google Ads (including Google Ads Scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
+- Python, Ruby, Node.js, PostgreSQL, Redis
+- >-
+  Interests in Functionnal Programming: Elixir, Clojure, Racket
+- >-
+  Data Science: Pandas & NumPy libraries for Python, Julia, R
+- >-
+  Tools: OS X, Linux, Emacs, Zsh + Tmux + (Neo)Vim, \LaTeX
+- >-
+  Last trip: Hong Kong & Seoul (Summer 2019)
 
 languages:
   - language: French
