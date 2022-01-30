@@ -13,7 +13,10 @@ experience:
   job: Software Engineer - Growth
   city: Remote, Canada
   description:
-  - linedescription: Working on an internal Ruby on Rails service to scale creatives throughput and advertising spend.
+  - linedescription: Created a Ruby on Rails microservice to handle our ads automation needs.
+  - linedescription: Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
+  - linedescription: Helped on event tracking and analytics for the React Native mobile app.
+  - linedescription: Worked on the public website's SEO for User Acquisition.
 - years: Jul. 2020 \newline -- \newline Now
   employer: Damien Gonot
   employerdescription: Sole proprietorship
