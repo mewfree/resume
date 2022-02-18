@@ -1,0 +1,5 @@
+* Résumé
+
+My personal résumé. Heavily inspired by [[https://github.com/mrzool/cv-boilerplate][cv-boilerplate]].
+
+[[https://github.com/mewfree/resume/blob/master/damiengonot_resume.pdf][Final result]].
