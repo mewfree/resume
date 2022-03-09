@@ -9,12 +9,10 @@
 
 * Experience
 ** Wealthsimple
-*** Role
-Software Engineer - Growth
-*** Dates
-March 2021 - Now
-*** Location
-Remote, Canada
+| Role                       | Dates            | Location       |
+|----------------------------+------------------+----------------|
+| Software Engineer - Growth | March 2021 - Now | Remote, Canada |
+
 *** Description
 - Created a Ruby on Rails microservice to handle our ads automation needs.
 - Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
@@ -22,12 +20,10 @@ Remote, Canada
 - Worked on the public website's SEO for user acquisition.
 
 ** Hopper
-*** Role
-User Acquisition Manager
-*** Dates
-February 2017 - September 2020
-*** Location
-Montreal, QC
+| Role                     | Dates                          | Location     |
+|--------------------------+--------------------------------+--------------|
+| User Acquisition Manager | February 2017 - September 2020 | Montreal, QC |
+
 *** Description
 - Created the Hopper Ads Engine, a collection of Python scripts automatically generating, optimizing and reporting Hopper's user acquisition strategy.
 - Integrated our internal inventory of flights & hotels prices with the ad platforms' API (Facebook, Snap, Twitter, TikTok...) to generate thousands of daily refreshed creatives.
@@ -36,47 +32,37 @@ Montreal, QC
 - Other projects around email marketing, notifications, text-to-speech for video creatives...
 
 ** Konversion (Accenture)
-*** Role
-Campaigns Manager
-*** Dates
-September 2016 - February 2017
-*** Location
-Montreal, QC
+| Role              | Dates                          | Location     |
+|-------------------+--------------------------------+--------------|
+| Campaigns Manager | September 2016 - February 2017 | Montreal, QC |
+
 *** Description
 - Managed the digital marketing strategy of multiple clients (insurance, real estate, retail...), including one of the largest Google Ads account in Canada in terms of budget, with a total annual budget of over $15M across accounts.
 
 ** Busbud
-*** Role
-Customer Acquisition Associate
-*** Dates
-May 2015 - September 2016
-*** Location
-Montreal, QC
+| Role                           | Dates                     | Location     |
+|--------------------------------+---------------------------+--------------|
+| Customer Acquisition Associate | May 2015 - September 2016 | Montreal, QC |
+
 *** Description
 - Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click).
 # ** Roomlala
 
 * Education
 ** College of Commerce - National Chengchi University (NCCU)
-Exchange Student
-*** Dates
-2014 - 2015
-*** Location
-Taipei, Taiwan
+| Type             | Dates       | Location       |
+|------------------+-------------+----------------|
+| Exchange Student | 2014 - 2015 | Taipei, Taiwan |
 
 ** John Molson School of Business (JMSB) - Concordia University
-Visiting Student
-*** Dates
-2013 - 2014
-*** Location
-Montreal, QC
+| Type             | Dates       | Location     |
+|------------------+-------------+--------------|
+| Visiting Student | 2013 - 2014 | Montreal, QC |
 
 ** Kedge Business School
-International BBA (Bachelor in Business Administration)
-*** Dates
-2011 - 2015
-*** Location
-Marseille, France
+| Type                                                   | Dates       | Location          |
+|--------------------------------------------------------+-------------+-------------------|
+| International BBA (Bachelor in Business Administration | 2011 - 2015 | Marseille, France |
 
 * Skills
 - Python, Ruby, Node.js, PostgreSQL, Redis
