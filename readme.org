@@ -3,14 +3,9 @@
 #+latex_header: \usepackage{nopageno}
 
 * Personal Details
-** Name
-Damien Gonot
-** Location
-Montreal, QC, Canada
-** Email
-damien.gonot@gmail.com
-** Personal Website
-https://www.damiengonot.com
+| Name         | Location             | Email                  | Personal Website            |
+|--------------+----------------------+------------------------+-----------------------------|
+| Damien Gonot | Montreal, QC, Canada | damien.gonot@gmail.com | https://www.damiengonot.com |
 
 * Experience
 ** Wealthsimple
