@@ -7,82 +7,84 @@ urls: https://www.damiengonot.com
 
 # Sections
 experience:
-- years: Mar. 2021 \newline -- \newline Now
-  employer: Wealthsimple
-  employerdescription: Financial services
-  job: Software Engineer - Growth
-  city: Remote, Canada
-  description:
-  - linedescription: Created a Ruby on Rails microservice to handle our ads automation needs.
-  - linedescription: Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
-  - linedescription: Helped on event tracking and analytics for the React Native mobile app.
-  - linedescription: Worked on the public website's SEO for user acquisition.
-- years: Jul. 2020 \newline -- \newline Now
-  employer: Damien Gonot
-  employerdescription: Sole proprietorship
-  job: Marketing Consultant
-  city: Montreal, QC
-  description:
-  - linedescription: Helped a Y Combinator company scale their Google Ads by leveraging Google Ads Scripts.
-  - linedescription: Other projects around data reporting, automated Facebook Ads campaigns creation...
-- years: Feb. 2017 \newline -- \newline Sept. 2020
-  employer: Hopper
-  employerdescription: Flights & hotels booking app
-  job: User Acquisition Manager
-  city: Montreal, QC
-  description:
-  - linedescription: Created the Hopper Ads Engine, a collection of Python scripts automatically generating, optimizing and reporting Hopper's user acquisition strategy.
-  - linedescription: Integrated our internal inventory of flights & hotels prices with the ad platforms' API (Facebook, Snap, Twitter, TikTok...) to generate thousands of daily refreshed creatives.
-  - linedescription: Optimized our overall acquisition campaigns to continuously reach our target payback period and LTV/CAC target ratio.
-  - linedescription: Reported spend & performance by automatically pulling reports from ad platforms and our Mobile Measurement Platform (AppsFlyer) to BigQuery and Google Spreadsheets.
-  - linedescription: Other projects around email marketing, notifications, text-to-speech for video creatives...
-- years: Sept. 2016 \newline -- \newline Feb. 2017
-  employer: Konversion
-  employerdescription: SEM/SEO agency now part of Accenture
-  job: Campaigns Manager
-  city: Montreal, QC
-  description:
-  - linedescription: Managed the digital marketing strategy of multiple clients (insurance, real estate, retail...), including one of the largest Google Ads account in Canada in terms of budget, with a total annual budget of over $15M across accounts.
-- years: May 2015 \newline -- \newline Sept. 2016
-  employer: Busbud
-  employerdescription: Intercity bus tickets website
-  job: Customer Acquisition Associate
-  city: Montreal, QC
-  description:
-  - linedescription: >-
-      Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click).
-  - linedescription: Switched our Google Ads scripts setup to a Google Ads API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
-  - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
-  - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
+  - years: Mar. 2021 \newline -- \newline Now
+    employer: Wealthsimple
+    employerdescription: Financial services
+    job: Software Engineer - Growth
+    city: Remote, Canada
+    description:
+      - linedescription: Successfully led the transition of user attribution, push notification and deep linking systems in the React Native mobile app.
+      - linedescription: Contributed to the design and implementation of new website features to promote newly released products.
+      - linedescription: Helped on event tracking and analytics for the React Native mobile app.
+      - linedescription: Worked on the public website's SEO for user acquisition.
+      - linedescription: Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
+      - linedescription: Created a Ruby on Rails microservice to handle our ads automation needs.
+  - years: Jul. 2020 \newline -- \newline Now
+    employer: Damien Gonot
+    employerdescription: Sole proprietorship
+    job: Marketing Consultant
+    city: Montreal, QC
+    description:
+      - linedescription: Helped a Y Combinator company scale their Google Ads by leveraging Google Ads Scripts.
+      - linedescription: Other projects around data reporting, automated Facebook Ads campaigns creation...
+  - years: Feb. 2017 \newline -- \newline Sept. 2020
+    employer: Hopper
+    employerdescription: Flights & hotels booking app
+    job: User Acquisition Manager
+    city: Montreal, QC
+    description:
+      - linedescription: Created the Hopper Ads Engine, a collection of Python scripts automatically generating, optimizing and reporting Hopper's user acquisition strategy.
+      - linedescription: Integrated our internal inventory of flights & hotels prices with the ad platforms' API (Facebook, Snap, Twitter, TikTok...) to generate thousands of daily refreshed creatives.
+      - linedescription: Optimized our overall acquisition campaigns to continuously reach our target payback period and LTV/CAC target ratio.
+      - linedescription: Reported spend & performance by automatically pulling reports from ad platforms and our Mobile Measurement Platform (AppsFlyer) to BigQuery and Google Spreadsheets.
+      - linedescription: Other projects around email marketing, notifications, text-to-speech for video creatives...
+  - years: Sept. 2016 \newline -- \newline Feb. 2017
+    employer: Konversion
+    employerdescription: SEM/SEO agency now part of Accenture
+    job: Campaigns Manager
+    city: Montreal, QC
+    description:
+      - linedescription: Managed the digital marketing strategy of multiple clients (insurance, real estate, retail...), including one of the largest Google Ads account in Canada in terms of budget, with a total annual budget of over $15M across accounts.
+  - years: May 2015 \newline -- \newline Sept. 2016
+    employer: Busbud
+    employerdescription: Intercity bus tickets website
+    job: Customer Acquisition Associate
+    city: Montreal, QC
+    description:
+      - linedescription: >-
+          Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click).
+      - linedescription: Switched our Google Ads scripts setup to a Google Ads API (with a Python wrapper) setup to have more control on the campaign creation and updates. Built an in-house remarketing setup to replace Criteo.
+      - linedescription: On-page SEO, SEO content, interlinking, use of a crawler & log analysis tool (ELK stack).
+      - linedescription: Created the Dollar Bus Club (alerts on $1 bus tickets on Twitter and by emails) and Busvsplane.com (Bus vs Plane comparison website, including Uber pricings to/from bus station/airport) as side-projects.
 
 education:
-- years: 2014--2015
-  subject: College of Commerce
-  degree: Exchange Student
-  institute: National Chengchi University
-  city: Taipei, Taiwan
-- years: 2013--2014
-  subject: John Molson School of Business
-  degree: Visiting Student
-  institute: Concordia University
-  city: Montreal, Quebec
-- years: 2011--2015
-  subject: International BBA (Bachelor in Business Administration)
-  degree: Full-time Student
-  institute: Kedge Business School
-  city: Marseille, France
+  - years: 2014--2015
+    subject: College of Commerce
+    degree: Exchange Student
+    institute: National Chengchi University
+    city: Taipei, Taiwan
+  - years: 2013--2014
+    subject: John Molson School of Business
+    degree: Visiting Student
+    institute: Concordia University
+    city: Montreal, Quebec
+  - years: 2011--2015
+    subject: International BBA (Bachelor in Business Administration)
+    degree: Full-time Student
+    institute: Kedge Business School
+    city: Marseille, France
 
 skills:
-- Google Ads (including Google Ads Scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
-- Python, Ruby, Node.js, PostgreSQL, Redis
-- >-
-  Interests in Functional Programming: Elixir, Clojure, Racket
-- >-
-  Data Science: Pandas & NumPy libraries for Python, Julia, R
-- >-
-  Tools: OS X, Linux, Emacs, Zsh + Tmux + (Neo)Vim, \LaTeX
-- >-
-  Last trip: Hong Kong & Seoul (Summer 2019)
+  - Google Ads (including Google Ads Scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
+  - Python, Ruby, Node.js, PostgreSQL, Redis
+  - >-
+    Interests in Functional Programming: Elixir, Clojure, Racket
+  - >-
+    Data Science: Pandas & NumPy libraries for Python, Julia, R
+  - >-
+    Tools: OS X, Linux, Emacs, Zsh + Tmux + (Neo)Vim, \LaTeX
+  - >-
+    Last trip: Hong Kong & Seoul (Summer 2019)
 
 languages:
   - language: French

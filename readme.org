@@ -14,10 +14,12 @@
 | Software Engineer - Growth | March 2021 - Now | Remote, Canada |
 
 *** Description
-- Created a Ruby on Rails microservice to handle our ads automation needs.
-- Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
+- Successfully led the transition of user attribution, push notification and deep linking systems in the React Native mobile app.
+- Contributed to the design and implementation of new website features to promote newly released products.
 - Helped on event tracking and analytics for the React Native mobile app.
 - Worked on the public website's SEO for user acquisition.
+- Created a Figma plugin to directly upload creatives to different ad platforms (Facebook Ads, Snap Ads, Twitter Ads).
+- Created a Ruby on Rails microservice to handle our ads automation needs.
 
 ** Hopper
 | Role                     | Dates                          | Location     |
