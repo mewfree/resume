@@ -75,16 +75,14 @@ education:
     city: Marseille, France
 
 skills:
-  - Google Ads (including Google Ads Scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
-  - Python, Ruby, Node.js, PostgreSQL, Redis
+  - Python, Ruby, JavaScript, PostgreSQL, Redis
   - >-
-    Interests in Functional Programming: Elixir, Clojure, Racket
+    Interests in Functional Programming: Elixir, Clojure, Haskell
   - >-
     Data Science: Pandas & NumPy libraries for Python, Julia, R
+  - Google Ads (including Google Ads Scripts & Google Ads API), Facebook Ads (including Facebook Marketing API), Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
   - >-
-    Tools: OS X, Linux, Emacs, Zsh + Tmux + (Neo)Vim, \LaTeX
-  - >-
-    Last trip: Hong Kong & Seoul (Summer 2019)
+    Tools: macOS, Linux, Emacs, zsh + tmux + (neo)vim, \LaTeX
 
 languages:
   - language: French
