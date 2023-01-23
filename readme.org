@@ -48,7 +48,6 @@
 
 *** Description
 - Managed Google Ads and Bing Ads accounts: 8 languages, 1,000,000+ keywords, 50,000,000+ yearly impressions, 3,500,000+ annual clicks with a positive direct ROAS (last click).
-# ** Roomlala
 
 * Education
 ** College of Commerce - National Chengchi University (NCCU)
@@ -67,8 +66,8 @@
 | International BBA (Bachelor in Business Administration | 2011 - 2015 | Marseille, France |
 
 * Skills
-- Python, Ruby, Node.js, PostgreSQL, Redis
-- Functional Programming: Elixir, Clojure, Racket
+- Python, Ruby, JavaScript, PostgreSQL, Redis
+- Functional Programming: Elixir, Clojure, Haskell
 - Data Science: Pandas / NumPy, Julia, R
 - Ad platforms: Google Ads, Facebook Ads, Twitter Ads, Snap Ads, Apple Search Ads, TikTok Ads
 - Tools: macOS, Linux, Emacs
